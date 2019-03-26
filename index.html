@@ -9,10 +9,16 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <h1>Hi</h1>
 
-    <button type="button" class="btn btn-danger">Hi</button>
+    <form>
+        <div class="form-group">
+          <label for="inputIngredient">Ingredient</label>
+          <input type="text" class="form-control" id="inputIngredient" placeholder="2 cups sugar">
+        </div>
+        <button type="submit" id="addButton"  class="btn btn-primary">Add</button>
+    </form>
 
+    <div id="ingredient-container"></div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
