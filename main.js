@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const addButton = document.getElementById('addButton');
 const inputIngredient = document.getElementById('inputIngredient');
 
@@ -22,3 +23,6 @@ const init = () => {
     eventListeners();
 }
 init();
+=======
+console.log('Mooooooo');
+>>>>>>> master
